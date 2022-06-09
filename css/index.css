@@ -1,0 +1,173 @@
+body {
+  background-color: hsl(0, 0%, 98%);
+  font-family: 'Epilogue', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-weight: bold;
+  text-align: left;
+  color: hsl(0, 0%, 8%);
+}
+
+h3 {
+  font-size: 18px;
+}
+
+p {
+  font-size: 18px;
+  text-align: left;
+  padding: 5% 0;
+}
+
+/* title */
+
+.conteiner-fluid {
+  text-align: center;
+  padding: 10%;
+}
+
+.head-text {
+  color: hsl(0, 0%, 41%);
+}
+
+/* star zone  */
+.star-zone {
+  padding: 3%;
+}
+
+.star-1 {
+  display: inline-block;
+  background-color: #EEEEEE;
+  padding: 2.5%;
+  margin: 2%;
+  position: relative;
+  right: 75px;
+}
+
+.star-2 {
+  display: inline-block;
+  background-color: #EEEEEE;
+  padding: 2.5%;
+  margin: 2%;
+  position: relative;
+  right: 10px;
+}
+
+.star-3 {
+  display: inline-block;
+  background-color: #EEEEEE;
+  padding: 2.5%;
+  margin: 2%;
+  position: relative;
+  left: 75px;
+}
+
+span {
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+/* testimonial section */
+.testimonial-section {
+  color: white;
+}
+
+.testimonial-1 {
+  background-color: #7C3E66;
+  padding: 10%;
+  border-radius: 5%;
+}
+
+.testimonial-2 {
+  background-color: #7C3E66;
+  padding: 10%;
+  border-radius: 5%;
+  position: relative;
+  top: 15px;
+}
+
+.testimonial-3 {
+  background-color: #7C3E66;
+  padding: 10%;
+  border-radius: 5%;
+  position: relative;
+  top: 30px;
+}
+
+.testimonial-foto {
+  border-radius: 50%;
+  float: left;
+  padding: 0 20px 0 0;
+}
+
+.testimonial-section-1-header {
+  text-align: left;
+}
+
+
+.testimonial-section .text-verified {
+  color: #F73D93;
+  margin-bottom: 10%;
+  text-align: left;
+}
+
+ .test-anne {
+   padding-right: 0;
+ }
+
+
+.attribution {
+  font-size: 11px;
+  text-align: left;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (max-width:1200px) {
+  h1, p {
+    text-align: center;
+  }
+
+  /* star zone */
+  .star-1 {
+    position: relative;
+    left: 1px;
+    padding: 20px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .star-2 {
+    position: relative;
+    left: 1px;
+    padding: 20px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .star-3 {
+    position: relative;
+    left: 1px;
+    padding: 20px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  /* testimonial-section  */
+  .testimonial-text {
+    text-align: left;
+  }
+}
